@@ -4,11 +4,7 @@
 
 <h1>Setup:</h1>
 <h3>Dependencies:</h3>
-Install the following dependencies using <code>pip install</code> command
-<ul>
-    <li>requests</li>
-    <li>beautifulsoup4</li>
-</ul>
+Install the dependencies from the requirements.txt file using <code>pip install -r requirements.txt</code>
 
 
 
