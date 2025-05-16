@@ -142,12 +142,12 @@ def getTop100():
     logging.info(f"{len(allBatsmen)} batsmen info has been added.")
     logging.info(f"{len(allBowlers)} bowlers info has been added.")
 
-    logging.info("Top 25 batsmen:")
-    for i in range(25):
+    logging.info("Top 100 batsmen:")
+    for i in range(100):
         logging.info(f"{allBatsmen[i].name}, {allBatsmen[i].teamName}, {allBatsmen[i].runs}")
 
-    logging.info("Top 25 bowlers:")
-    for i in range(25):
+    logging.info("Top 100 bowlers:")
+    for i in range(100):
         logging.info(f"{allBowlers[i].name}, {allBowlers[i].teamName}, {allBowlers[i].wickets}")
 
 
